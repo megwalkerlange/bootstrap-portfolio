@@ -3,17 +3,23 @@ body {
 
 }
     
+#jumbo-tron {
 
+   padding: 50px;
+   margin: 20px;
+}
 
 h1 {
-   font-family: Capar;
+   font-family: plafair-dsiplay;
 }
 
 h2 {
     font-family: Playfair-Display;
 }
 
-.skill-cards {
-    display: inline-block;
+#skills-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
