@@ -1,16 +1,48 @@
 body {
-    background-color: azure;
+    background-color: purple;
+
 
 }
+
+.navbar {
+
+    background-color: rgb(247, 215, 173);
+}
+
+#nav-bar {
+
+    background-color: rgb(252, 201, 92);
+}
+
+.navbar-brand {
+    font-size: 48pt;
+}
+
+nav {
+
+     display: flex;
+}
+
     
 #jumbo-tron {
 
+   display: flex;
    padding: 50px;
    margin: 20px;
+   border-radius: 8px;
+   justify-content: center;
+   border: solid 10px beige;
+  
+}
+
+.profile-pic {
+
+  justify-content: center;
+
 }
 
 h1 {
-   font-family: plafair-dsiplay;
+   font-family: caprasimo;
 }
 
 h2 {
@@ -18,8 +50,12 @@ h2 {
 }
 
 #skills-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: solid 10px rgb(252, 201, 92)
 }
 
+#footer {
+
+    border-radius: 8pxs;
+}
