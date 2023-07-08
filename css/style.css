@@ -50,9 +50,23 @@ h2 {
 }
 
 #skills-card {
+    background-color: rosybrown;
     margin-left: 50px;
     margin-top: 50px;
-    border: solid 10px rgb(252, 201, 92)
+    border: solid 10px rosybrown;
+}
+
+#line-1 {
+    justify-content: center;
+}
+
+#line-2 {
+    justify-content: space-around;
+   margin-left: 50px;
+}
+
+.card {
+    border-radius: 0px;
 }
 
 #footer {
