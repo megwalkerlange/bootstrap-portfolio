@@ -1,17 +1,17 @@
 body {
-    background-color: purple;
+    background-color: rgb(245, 241, 214);
 
 
 }
 
 .navbar {
 
-    background-color: rgb(247, 215, 173);
+    background-color: rgb(245, 241, 214) !important;
 }
 
 #nav-bar {
 
-    background-color: rgb(252, 201, 92);
+    background-color: rgb(245, 241, 214);
 }
 
 .navbar-brand {
@@ -23,46 +23,49 @@ nav {
      display: flex;
 }
 
+.navbar-brand {
+    font-family: caprasimo;
+    color: rgb(8, 41, 8);
+    margin-left: 80px;
+ }
+ 
     
 #jumbo-tron {
 
    display: flex;
    padding: 50px;
    margin: 20px;
-   border-radius: 8px;
+   border-radius: 0px;
    justify-content: center;
-   border: solid 10px beige;
-  
+   background-color: rgb(245, 241, 214) !important;
 }
 
-.profile-pic {
 
-  justify-content: center;
-
-}
-
-h1 {
-   font-family: caprasimo;
-}
-
-h2 {
-    font-family: Playfair-Display;
+h3 {
+    font-family: caprasimo;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 42pt;
+    color: rgba(77, 0, 0, 0.884);
 }
 
 #skills-card {
-    background-color: rosybrown;
-    margin-left: 50px;
-    margin-top: 50px;
-    border: solid 10px rosybrown;
-}
+    background-color: rgb(245, 241, 214);
+    margin-left: 50px; 
+    padding:10px;
+    border: solid 10px rgb(245, 241, 214);
+    border-radius: 0px;
+} 
 
 #line-1 {
     justify-content: center;
 }
 
 #line-2 {
-    justify-content: space-around;
-   margin-left: 50px;
+
+   margin-left: 40px;
+   margin-right: -10px;
+   justify-content: center;
 }
 
 .card {
@@ -71,5 +74,14 @@ h2 {
 
 #footer {
 
-    border-radius: 8pxs;
+    background-color: rgb(245, 241, 214) !important ;
+    width:100%;
+}
+
+h4 {
+    font-family: caprasimo;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 42pt;
+    color: rgba(77, 0, 0, 0.884);
 }
