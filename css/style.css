@@ -12,7 +12,12 @@ body {
 
 #nav-bar {
 
+    position: fixed !important; 
     background-color: rgb(245, 241, 214);
+     z-index: 99; 
+    margin-top: 50px;
+    width: 97%;
+
 }
 
 
@@ -21,24 +26,25 @@ body {
     font-family: caprasimo;
     color: rgb(8, 41, 8);
     margin-left: 80px;
-    font-size: 64pt;
+    font-size: 40pt;
  }
  
  .nav-link {
 
     font-family: josefin sans;
-    font-size: 28pt;
+    font-size: 22pt;
     text-decoration-line: underline;
     text-decoration-thickness: 10px;
     margin-right: 30px;
     margin-left: 20px;
+    color: rgb(67, 66, 66);
  }
     
 #jumbo-tron {
 
    display: flex;
    padding: 50px;
-   margin: 20px;
+   margin: 40px;
    border-radius: 0px;
    justify-content: center;
    background-color: rgb(153, 234, 113) !important;
@@ -101,10 +107,16 @@ h3 {
     border-radius: 0px;
 }
 
-#footer {
+.card-text {
+
+    font-family: josefin sans;
+}
+
+#contact {
 
     background-color: rgb(245, 241, 214) !important ;
     width:100%;
+    display: flex;
 }
 
 h4 {
@@ -113,8 +125,25 @@ h4 {
     margin-top: 30px;
     font-size: 42pt;
     color: rgba(77, 0, 0, 0.884);
+    display: inline;
+}
+
+.link-bar {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .contact-links {
-    justify-content: space-around;
+  
+    margin-left: 50px;
+    font-family: josefin sans;
+    font-size: 18pt;
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    color: rgb(67, 66, 66);
 }
