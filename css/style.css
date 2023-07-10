@@ -6,17 +6,14 @@ body {
 
 .navbar {
 
-    margin-top: 20px;
     background-color: rgb(245, 241, 214) !important;
 }
 
 #nav-bar {
 
-    position: fixed !important; 
+    
     background-color: rgb(245, 241, 214);
-     z-index: 99; 
-    margin-top: 50px;
-    width: 97%;
+    margin-top: 10px;
 
 }
 
@@ -25,14 +22,13 @@ body {
 .navbar-brand {
     font-family: caprasimo;
     color: rgb(8, 41, 8);
-    margin-left: 80px;
-    font-size: 40pt;
+    font-size: 30pt;
  }
  
  .nav-link {
 
     font-family: josefin sans;
-    font-size: 22pt;
+    font-size: 16pt;
     text-decoration-line: underline;
     text-decoration-thickness: 10px;
     margin-right: 30px;
@@ -44,21 +40,27 @@ body {
 
    display: flex;
    padding: 50px;
-   margin: 40px;
+   margin: 10px;
    border-radius: 0px;
    justify-content: center;
-   background-color: rgb(153, 234, 113) !important;
+   background-color: rgb(243, 234, 177) !important;
    
+}
+
+img {
+   
+    justify-content: flex-end;
+    border: solid 7px rgb(243, 234, 177);
 }
 
 h2 {
     font-family: josefin sans;
-    font-size:70pt
+    font-size:50pt
 }
 
 .intro {
     font-family: josefin sans;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 a {
@@ -69,7 +71,7 @@ h3 {
     font-family: caprasimo;
     margin-left: 80px;
     margin-top: 30px;
-    font-size: 60pt;
+    font-size: 42pt;
     color: rgba(77, 0, 0, 0.884);
     
 }
@@ -82,6 +84,13 @@ h3 {
     border-radius: 0px;
     
 } 
+
+.card-skills {
+
+    /* font-size: medium; */
+    font-weight: 400;
+    font-family: josefin sans;
+}
 
 #line-1 {
     justify-content: center;
@@ -104,7 +113,12 @@ h3 {
 }
 
 .card {
-    border-radius: 0px;
+    border-radius: 7px;
+}
+
+.card-body:hover {
+
+   background-color: rgb(228, 126, 126);
 }
 
 .card-text {
@@ -128,22 +142,12 @@ h4 {
     display: inline;
 }
 
-.link-bar {
-    width: 100%;
-    display: flex; 
-    align-items: center;
-    justify-content: space-around;
 
+.contact {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
-.contact-links {
-  
-    margin-left: 50px;
-    font-family: josefin sans;
-    font-size: 18pt;
-    text-decoration-line: underline;
-    text-decoration-thickness: 10px;
-    margin-right: 30px;
-    margin-left: 20px;
-    color: rgb(67, 66, 66);
-}
