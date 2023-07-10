@@ -85,11 +85,10 @@ h3 {
     
 } 
 
-.card-skills {
+b {
 
-    /* font-size: medium; */
-    font-weight: 400;
     font-family: josefin sans;
+    font-size: 28pt;
 }
 
 #line-1 {
